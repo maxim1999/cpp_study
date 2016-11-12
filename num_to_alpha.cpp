@@ -13,6 +13,6 @@ int main(int argc, char** argv) {
     char c;
     cout << "Enter a number from 1-26: ";
     cin >> ch;
-    cout << "abcdefghijklmnopqrstuvwxyz"[ch - 1];
+    cout << char('a' + ch - 1);
     return 0;
 }
